@@ -2,10 +2,15 @@ import BlogItem from "../components/BlogItem";
 
 const Home = () => {
   return (
-    <div>
+    <div className="list">
       {" "}
+      <BlogItem
+        title="My first year in Engineering"
+        date="25 Jun"
+        link="/first-year"
+      />
       <div>
-        <BlogItem title="SECOND BRAIN" date="24 Jun" link="/second-brain" />
+        <BlogItem title="Second Brain" date="21 May" link="/second-brain" />
       </div>
     </div>
   );

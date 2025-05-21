@@ -5,6 +5,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import SecondBrain from "./pages/SecondBrain";
+import Year1 from "./pages/Year1";
 import Navigation from "./components/Navigation";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/second-brain" element={<SecondBrain />} />
+        <Route path="/first-year" element={<Year1 />} />
       </Routes>
     </main>
   );
