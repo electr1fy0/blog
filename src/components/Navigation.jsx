@@ -6,7 +6,11 @@ const Navigation = () => {
       <div className="text-neutral-700 ">
         <Link to="/">electr1fy0's blog</Link>
       </div>
-      <div className="text-base">Github</div>
+      <div className="text-base">
+        <a href="https://github.com/electr1fy0/" target="_blank">
+          Github
+        </a>
+      </div>
     </nav>
   );
 };
