@@ -10,7 +10,7 @@ import Navigation from "./components/Navigation";
 
 function App() {
   return (
-    <main className="w-full max-w-3xl mx-auto px-4">
+    <main className="w-full max-w-3xl mx-auto px-1">
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
