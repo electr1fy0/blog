@@ -8,10 +8,8 @@ import SecondBrain from "./pages/SecondBrain";
 import Navigation from "./components/Navigation";
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
-    <main className="md:w-xl  w-md">
+    <main className="w-full max-w-3xl mx-auto px-4">
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />

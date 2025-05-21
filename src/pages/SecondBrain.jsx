@@ -1,15 +1,13 @@
 const SecondBrain = () => {
   return (
-    <div className="text-left space-y-6">
+    <div className="text-left space-y-6 text-neutral-800 ">
       <p>
-        The idea of a Second Brain, a digital repository for storing and
-        organizing all your notes, ideas, and information - has gotten way too
-        popular. But hear me out, this concept is fundamentally flawed and
-        misunderstands how our actual brains work. Our brains aren't wired to
-        have constant access to an overwhelming amount of information
-        simultaneously. Maintaining the database encourages constantly jumping
-        between tasks and information sources, fragmenting our attention and
-        preventing deep work.
+        The idea of a Second Brain has blown up a bit lately. But hear me out,
+        the idea is fundamentally flawed and misunderstands how our actual
+        brains work. Our brains aren't wired to have constant access to an
+        overwhelming amount of information simultaneously. Maintaining the
+        database encourages constantly jumping between tasks and information
+        sources, fragmenting our attention and preventing deep work.
       </p>
       <p>
         The act of manually recording and organizing information creates
@@ -34,12 +32,14 @@ const SecondBrain = () => {
         available today can paradoxically make us feel paralyzed and unable to
         make decisions or actions. Our brains are great at making connections
         and finding insights from context. These databases remove this context,
-        turning information into isolated data points. You are basically
-        attempting to outsource the very cognitive processes that make our
-        brains so powerful in the first place. While it may have niche
-        applications, for most of us, it's an overly complex solution in search
-        of a problem. Keep it simple, engage deeply with information, and trust
-        your amazing first brain to do what it does best.
+        turning information into isolated data points.
+      </p>
+      <p>
+        You are basically attempting to outsource the very cognitive processes
+        that make our brains so powerful in the first place. While it may have
+        niche applications, for most of us, it's an overly complex solution in
+        search of a problem. Keep it simple, engage deeply with information, and
+        trust your amazing first brain to do what it does best.
       </p>
     </div>
   );
